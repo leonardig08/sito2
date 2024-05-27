@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'farmshow';
+    src: url('res/Farmshow.woff2') format('woff2'),
+        url('res/Farmshow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body{
+    font-family: "farmshow";
+    background-color:papayawhip;
+}
+.titlebar {
+    text-align: left;
+    padding-left: 40px;
+    font-weight: 300;
+}
+.logomenu {
+    display: flex;
+    vertical-align: middle;
+    align-items:center;
+    font-size: 30pt;
+}
+.logo {
+    width: 100px;
+    height: fit-content;
+}
+.menubaritems {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items:end;
+    padding-left: 200px;
+}
+.navbar{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.navlist {
+    display:flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.navlist li {
+    color: black;
+    list-style: none;
+}
+.navlist a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.navlist a:hover{
+    transition: transform 0.6s ease;
+    transform:scale(1.05);
+    transform:rotate(5deg);
+    text-decoration: underline;
+}
+.sec {
+    display: flex;
+    justify-content:left;
+    vertical-align: middle;
+    align-items: center;
+}
+h1 {
+    font-size: 20pt;
+}
+p {
+    font-size: 15pt;
+}
+main * {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 20px;
+}
+main ul{
+    font-size: 16pt;
+}
