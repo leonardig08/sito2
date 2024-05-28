@@ -48,6 +48,8 @@ body{
 .navlist li {
     color: black;
     list-style: none;
+    flex-wrap: nowrap;
+    text-wrap: nowrap;
 }
 .navlist a {
     color: black;
