@@ -13,6 +13,8 @@ body{
     background-color:papayawhip;
 }
 .titlebar {
+    flex-wrap: nowrap;
+    text-wrap: nowrap;
     text-align: left;
     padding-left: 40px;
     font-weight: 300;
