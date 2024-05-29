@@ -82,3 +82,25 @@ main * {
 main ul{
     font-size: 16pt;
 }
+.gallery-images {
+    display: flex;
+    flex-wrap:nowrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.gallery-images img {
+    width: 400px;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s ease-in-out;
+    object-fit: cover; 
+    overflow: hidden; 
+} 
+
+.gallery-images img:hover {
+    transform: scale(1.05);
+}
